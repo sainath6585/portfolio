@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import expVideo from "../assets/experience/exp-intro.mp4";
+import expVideo from "../assets/videos/exp-intro.mp4";
 
 const growthStages = [
   {

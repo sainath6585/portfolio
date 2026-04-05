@@ -2,12 +2,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
 import projectsAvatar from "../assets/projects-avatar.png"
-import manufacturingVideo from "../assets/projects/manufacturing.mp4";
-import loginVideo from "../assets/projects/login-ui.mp4";
-import swiggyVideo from "../assets/projects/swiggy.mp4";
-import quickkartVideo from "../assets/projects/quickkart-video.mp4";
+import manufacturingVideo from "../assets/videos/manufacturing.mp4";
+import loginVideo from "../assets/videos/login-ui.mp4";
+import swiggyVideo from "../assets/videos/swiggy.mp4";
+import quickkartVideo from "../assets/videos/quickkart-video.mp4";
 // import ottVideo from "../assets/projects/ott.mp4";
-import portfolioVideo from "../assets/projects/portfolio.mp4";
+import portfolioVideo from "../assets/videos/portfolio.mp4";
 
 const projects = [
   {

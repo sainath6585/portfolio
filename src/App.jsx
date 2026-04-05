@@ -2,7 +2,6 @@ import { useState } from 'react'
 import Navbar from './components/NavBar'
 import Hero from './components/Hero'
 import Skills from './sections/Skills'
-import ProjectsStrip from "./components/ProjectsStrip";
 import Projects from './sections/Projects';
 import Experience from './sections/Experience';
 import Contact from './sections/Contact';
