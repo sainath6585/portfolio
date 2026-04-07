@@ -45,19 +45,19 @@ export default function Contact() {
         {/* BUTTONS */}
         <div className="flex flex-col sm:flex-row gap-4 mt-8 md:mt-10">
           <a
-            href="mailto:svsainathreddy6585@gmail.com?subject=Hiring%20Opportunity"
+            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSBmlkBlbWjXXwSCwLrdTHMpqRlTCKdMWThNMfwwRHVRSxDqqmvMRgjHfJbFcnqXHMfDxbCS"
             className="px-6 md:px-8 py-3 md:py-4 rounded-2xl bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-semibold shadow-[0_0_25px_rgba(34,211,238,0.25)] hover:scale-105 transition text-center"
           >
             Hire Me
           </a>
 
           <a
-            href="/SOMIREDDY VENKATA SAINATH REDDY.PDF"
+            href="src\assets\SOMIREDDY VENKATA SAINATH REDDY.pdf"
             target="_blank"
             rel="noreferrer"
             className="px-6 md:px-8 py-3 md:py-4 rounded-2xl border border-cyan-400/20 bg-black/20 backdrop-blur-xl text-white hover:scale-105 transition text-center"
           >
-            View Resume
+           Resume
           </a>
         </div>
 
@@ -79,13 +79,6 @@ export default function Contact() {
             className="px-4 md:px-5 py-3 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-xl text-white/80 hover:scale-105 transition"
           >
             LinkedIn
-          </a>
-
-          <a
-            href="mailto:svsainathreddy6585@gmail.com?subject=Opportunity%20Discussion"
-            className="px-4 md:px-5 py-3 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-xl text-white/80 hover:scale-105 transition"
-          >
-            Email
           </a>
         </div>
       </div>

@@ -8,13 +8,13 @@ export default function Footer() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
         viewport={{ once: true }}
-        className="flex items-center justify-between"
+        className="flex items-center justify-between  text-center"
       >
         <p className="text-white/50 text-sm">
           © 2026 Sai Nath. Designed & Developed with React + Framer Motion.
         </p>
 
-        <div className="flex gap-4">
+        {/* <div className="flex gap-4">
           {["GitHub", "LinkedIn", "Email"].map((item) => (
             <div
               key={item}
@@ -23,7 +23,7 @@ export default function Footer() {
               {item}
             </div>
           ))}
-        </div>
+        </div> */}
       </motion.div>
     </footer>
   );
