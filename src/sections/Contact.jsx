@@ -32,7 +32,7 @@ export default function Contact() {
 
         <div className="mt-10 space-y-4">
           <p className="text-white/80 text-lg">
-            📧 sainath6585@gmail.com
+            📧 svsainathreddy6585@gmail.com
           </p>
           <p className="text-white/80 text-lg">
             📍 Hyderabad / Bangalore / Remote
@@ -52,7 +52,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="./assets/SOMIREDDY VENKATA SAINATH REDDY.PDF"
             target="_blank"
             className="px-8 py-4 rounded-2xl border border-cyan-400/20 bg-black/20 backdrop-blur-xl text-white hover:scale-105 transition"
           >
@@ -62,14 +62,30 @@ export default function Contact() {
 
         {/* SOCIAL LINKS */}
         <div className="flex gap-4 mt-10">
-          {["GitHub", "LinkedIn", "Email"].map((item) => (
-            <div
-              key={item}
-              className="px-5 py-3 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-xl text-white/80"
-            >
-              {item}
-            </div>
-          ))}
+          <a
+            href="https://github.com/sainath6585"
+            target="_blank"
+            rel="noreferrer"
+            className="px-5 py-3 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-xl text-white/80 hover:scale-105 transition"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/svsainathreddy"
+            target="_blank"
+            rel="noreferrer"
+            className="px-5 py-3 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-xl text-white/80 hover:scale-105 transition"
+          >
+            LinkedIn
+          </a>
+
+         <a
+            href="mailto:sainath6585@gmail.com?subject=Opportunity%20Discussion"
+            className="px-5 py-3 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-xl text-white/80 hover:scale-105 transition"
+          >
+            Email
+          </a>
         </div>
       </div>
 

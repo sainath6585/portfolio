@@ -2,6 +2,15 @@ import { motion } from "framer-motion";
 import heroImage from "../assets/hero.png";
 import useParallax from "../hooks/useParallax";
 import FloatingParticles from "./FloatingParticles";
+import {
+  FaReact,
+  FaJava,
+  FaJsSquare,
+} from "react-icons/fa";
+import {
+  SiSpring,
+  SiMysql,
+} from "react-icons/si";
 
 export default function Hero() {
   const { x, y } = useParallax();
@@ -42,9 +51,13 @@ export default function Hero() {
           and solve complex problems with clean code.
         </p>
 
-        <button className="glow-btn mt-8">View My Work →</button>
+        <a href="#projects">
+          <button className="glow-btn mt-8">
+            View My Work →
+          </button>
+        </a>
 
-        <div className="flex gap-4 pt-6">
+        {/* <div className="flex gap-4 pt-6">
           {["🐙", "in", "✉"].map((icon) => (
             <div
               key={icon}
@@ -53,7 +66,7 @@ export default function Hero() {
               {icon}
             </div>
           ))}
-        </div>
+        </div> */}
       </motion.div>
 
       {/* CENTER */}
@@ -112,10 +125,16 @@ export default function Hero() {
         </p>
 
         <div className="flex gap-4 pt-6">
-          {["⚛", "⬢", "🍃", "TS", "🌊"].map((icon) => (
+          {[
+            <FaReact />,
+            <FaJava />,
+            <SiSpring />,
+            <SiMysql />,
+            <FaJsSquare />,
+          ].map((icon, index) => (
             <div
-              key={icon}
-              className="w-14 h-14 rounded-xl border border-cyan-400/20 bg-black/20 backdrop-blur-xl flex items-center justify-center text-xl shadow-[0_0_18px_rgba(59,130,246,0.18)]"
+              key={index}
+              className="w-14 h-14 rounded-xl border border-cyan-400/20 bg-black/20 backdrop-blur-xl flex items-center justify-center text-2xl text-cyan-300 shadow-[0_0_18px_rgba(59,130,246,0.18)] hover:scale-110 hover:shadow-[0_0_24px_rgba(139,92,246,0.25)] transition"
             >
               {icon}
             </div>

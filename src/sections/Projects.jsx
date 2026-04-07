@@ -16,8 +16,8 @@ const projects = [
     stack: "React • Tailwind • Chart.js • Framer Motion",
     video: manufacturingVideo,
     type: "Technical Assessment",
-    github: "https://github.com/yourusername/manufacturing-dashboard",
-    live: "https://your-live-link.com",
+    github: "https://github.com/sainath6585/factoryiq-manufacturing-dashboard",
+    live: "https://factoryiq-manufacturing-dashboard.vercel.app/auth",
   },
   {
     title: "Immersive Glass Login Interface",
@@ -34,7 +34,7 @@ const projects = [
     stack: "Java • JDBC • MySQL • CRUD",
     video: quickkartVideo,
     type: "Java Full Stack",
-    github: "https://github.com/yourusername/quickkart",
+    github: "https://github.com/sainath6585/Quick-Kart",
     live: "https://your-live-link.com",
 },
   {
@@ -43,7 +43,7 @@ const projects = [
     stack: "React • JSX • CSS • Class Components",
     video: swiggyVideo,
     type: "Frontend Clone",
-    github: "https://github.com/yourusername/swiggy-clone",
+    github: "https://github.com/sainath6585/Swiggy_Landing_Page",
     live: "https://your-live-link.com",
   },
 //   {
@@ -61,8 +61,8 @@ const projects = [
     stack: "React • Tailwind • Framer Motion",
     video: portfolioVideo,
     type: "Personal Branding",
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://your-live-link.com",
+    github: "https://github.com/sainath6585/portfolio",
+    live: "https://portfolio-sainath6585s-projects.vercel.app/",
   },
 ];
 
